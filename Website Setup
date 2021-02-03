@@ -1,0 +1,11 @@
+import requests
+import bs4
+url = requests.get("https://sanctionssearch.ofac.treas.gov/")
+url
+import selenium
+from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.common.keys import Keys
+browser = webdriver.Chrome(executable_path=r'C:\Users\Diana\Desktop\chromedriver_win32\chromedriver.exe')
+browser.get('https://sanctionssearch.ofac.treas.gov/')
+#searchElem = browser.find_element_by_class_name('styleColumnBody')
